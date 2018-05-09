@@ -63,7 +63,7 @@ For content contributors to update the content on the site, follow the following
 5. Download [Atom](https://atom.io/) or your favorite text editor.
 6. Add the base repository (**not your fork**) as one of the remote repositories on your local repo.
 
->>`git add remote upstream https://github.com/johnrobisoniv/stable-seas.git`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git add remote upstream https://github.com/johnrobisoniv/stable-seas.git`
 
 ## Updating Content
 
