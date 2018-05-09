@@ -24,7 +24,7 @@ Dependent Libraries and Frameworks
 
 # Scripts
 
-## '''/js/main.js'''
+## ``` /js/main.js ```
 - /js/modal-video.js
 -
 
