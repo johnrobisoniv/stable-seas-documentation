@@ -25,10 +25,15 @@ Dependent Libraries and Frameworks
 # Scripts
 
 ## ``` /js/main.js ```
+
+The ```main.js``` file both defines many of the variables and functions that the interactive interface relies on and executes the sequence of events that dynamically builds the interface  on page load. 
+
+###
+
 - /js/modal-video.js
 -
 
-Data sources
+# Data sources
 - /data/main-data.js
 * /data/{issue area}/{issue area}-data.js
 - /data/regions-data.js
