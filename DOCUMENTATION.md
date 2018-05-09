@@ -22,8 +22,9 @@ Dependent Libraries and Frameworks
 - topojson.js
 - Bootstrap
 
-Scripts
-- /js/main.js
+# Scripts
+
+## '''/js/main.js'''
 - /js/modal-video.js
 -
 
