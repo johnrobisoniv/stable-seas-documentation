@@ -57,3 +57,11 @@ For content contributors to update the content on the site, follow the following
 1. Create a github account.
 2. Fork the [Stable Seas](https://github.com/johnrobisoniv/stable-seas) repository.
 3. Clone your fork of the repository to your local machine. (You will have to use the git command line interface or download Github Desktop. This is possible on Windows, Mac and Linux).
+4. Add the project folder to Github Desktop.
+5. Download [Atom](https://atom.io/) or your favorite text editor.
+6. Add the master repository (**not your fork**) as one of the remote repositories on your local repo.
+``` git add remote upstream https://github.com/johnrobisoniv/stable-seas.git ```
+
+## Updating Content
+1. Open the project folder in Atom (or your text editor).
+2.
