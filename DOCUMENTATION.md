@@ -60,7 +60,8 @@ For content contributors to update the content on the site, follow the following
 4. Add the project folder to Github Desktop.
 5. Download [Atom](https://atom.io/) or your favorite text editor.
 6. Add the master repository (**not your fork**) as one of the remote repositories on your local repo.
-``` git add remote upstream https://github.com/johnrobisoniv/stable-seas.git ```
+
+```git add remote upstream https://github.com/johnrobisoniv/stable-seas.git```
 
 ## Updating Content
 1. Open the project folder in Atom (or your text editor).
