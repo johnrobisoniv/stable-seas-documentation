@@ -81,6 +81,7 @@ For content contributors to update the content on the site, follow the following
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git reset --hard upstream/master`
 
 **This should make your local master branch look exactly the same the base master branch - now your local codebase is identical to the production version.**
+
 3. Make the changes you need to make to the content files.
 4. Commit changed files to your local `master` branch.
 5. Push local `master` to your remote repository's `origin/master` branch. (You should now see your changes reflected on the files on your github account forked repo.)
