@@ -73,7 +73,7 @@ For content contributors to update the content on the site, follow the following
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Updating Content
+### Updating Content
 
 1. Open the project folder in Atom (or your text editor).
 2. *Best Practice: update your local master branch to reflect the upstream/master (AKA base) branch. This will minimize the risk of conflicts*
