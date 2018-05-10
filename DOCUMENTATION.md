@@ -61,18 +61,25 @@ For content contributors to update the content on the site, follow the following
 3. Clone your fork of the repository to your local machine. (You will have to use the git command line interface or download Github Desktop. This is possible on Windows, Mac and Linux).
 4. (If you're using Github Desktop) Add the project folder to Github Desktop.
 5. Download [Atom](https://atom.io/) or your favorite text editor.
-6. Add the base repository (**not your fork**) as one of the remote repositories on your local repo:
+6. Add the base repository (**not your fork**) as one of the remote repositories on your local repo:<br />
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the command line:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git add remote upstream https://github.com/johnrobisoniv/stable-seas.git`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Github Desktop:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Updating Content
 ### Content Creators
 1. Open the project folder in Atom (or your text editor).
 2. *Best Practice: update your local master branch to reflect the upstream/master (AKA base) branch. This will minimize the risk of conflicts*
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git fetch upstream`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git reset --hard upstream/master`
+
 **This should make your local master branch look exactly the same the base master branch - now your local codebase is identical to the production version.**
 3. Make the changes you need to make to the content files.
 4. Commit changed files to your local `master` branch.
