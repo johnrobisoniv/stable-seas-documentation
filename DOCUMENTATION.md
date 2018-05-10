@@ -54,7 +54,9 @@ The `main.js` file both defines many of the variables and functions that the int
 
 For content contributors to update the content on the site, follow the following process:
 
-## Setup
+## Content Contributors
+
+### Setup
 
 1. Create a github account.
 2. [Fork](https://help.github.com/articles/fork-a-repo/) the [Stable Seas base branch](https://github.com/johnrobisoniv/stable-seas) repository.
@@ -72,7 +74,7 @@ For content contributors to update the content on the site, follow the following
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Updating Content
-### Content Creators
+
 1. Open the project folder in Atom (or your text editor).
 2. *Best Practice: update your local master branch to reflect the upstream/master (AKA base) branch. This will minimize the risk of conflicts*
 
@@ -87,7 +89,14 @@ For content contributors to update the content on the site, follow the following
 5. Push local `master` to your remote repository's `origin/master` branch. (You should now see your changes reflected on the files on your github account forked repo.)
 6. Submit a pull request to the base branch (https://github.com/johnrobisoniv/stable-seas) and let the base branch owner know, especially if time sensitive.
 
-### Site Administrator
+## Site Administrator
+
+### Setup
+1. Make a github account.
+2. Create a repository to host the production version of the codebase in the `master` branch.
+3. `git clone` that repository to your local machine so you have the single source of truth (your `origin/master`) and a version you can develop on (your `local/master`.)
+
+### Updating Content
 1. Keep the base `master` branch up to date with the production server version of the site.
 2. Monitor email / github for pull requests from content creators.
 3. When a pull request is received, review changes and merge. *You may have to resolve conflicts if they exist.*
