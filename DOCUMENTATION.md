@@ -93,5 +93,7 @@ For content contributors to update the content on the site, follow the following
 3. When a pull request is received, review changes and merge. *You may have to resolve conflicts if they exist.*
 4. `git pull` the `master` branch from your origin repository to your local `master`.
 5. Deploy the updated code onto the production server.
-**Now the up-to-date version of the site is synced with the production server, your origin master branch on github and your local machine's master branch.**
-**We think it is important to close this process (i.e. merge the pull request) before initiating another revision process. We suspect this will create conflicts or complicated merge processes.**
+
+> **Now the up-to-date version of the site is synced with the production server, your origin master branch on github and your local machine's master branch.**
+
+> **We think it is important to close this process (i.e. merge the pull request) before initiating another revision process. We suspect this will create conflicts or complicated merge processes.**
