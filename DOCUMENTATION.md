@@ -84,7 +84,7 @@ For content contributors to update the content on the site, follow the following
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Check if you're in the right folder by running `git status`)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fetch the `upstream/master` branch (from the root repository - **not your `origin`**):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fetch the `upstream/master` branch (from the root repository - **not your forked `origin`**):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git fetch upstream`
 
