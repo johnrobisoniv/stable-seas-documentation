@@ -80,17 +80,17 @@ For content contributors to update the content on the site, follow the following
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, open your command line and navigate to your git repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`cd (path/to/stable-seas/git/repo)`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`cd (path/to/stable-seas/git/repo)`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Check if you're in the right folder by running `git status`)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fetch the `upstream/master` branch (from the root repository - **not your `origin`**):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git fetch upstream`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git fetch upstream`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... and reset your `local/master` to be identical to the `upstream/master`:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git reset --hard upstream/master`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git reset --hard upstream/master`
 
 > **This should make your local master branch look exactly the same the base master branch - now your local codebase is identical to the production version.**
 
