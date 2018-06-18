@@ -14,14 +14,15 @@ The Load process
 
 Dependent Libraries and Frameworks
 
-- D3.js
-- v4
-- color
-- interpolate
-- scale-chromatic
-- jQuery
-- topojson.js
-- Bootstrap
+The Stable Seas web app relies on a number of open source libraries for page load and site interactivity. Most of these are part of the D3.js family (loaded as individual modules), as well as [Bootstrap](#) and [jQuery](#). D3 modules - linked to documentation - used in the project include:
+
+- D3.js (v4)
+  - [color](#)
+  - [interpolate](#)
+  - [scale-chromatic](#)
+  - [topojson.js](#)
+
+
 
 # Site Structure
 
@@ -32,11 +33,21 @@ Issue areas and regions Anatomy of a page
 - Card menu
 - Cards
 
+
+
+
 # Scripts
+
+(Note that the codebase was more-or-less replicated for the stableseas.org/regions pages, and that Regions pages load and execute `regions.js` rather than `main.js`. Functions, CSS selectors, etc on the regions side of the site replace `issue-area`, `issueArea` and `ia` with `region`.)
 
 ## `/js/main.js`
 
-The `main.js` file both defines many of the variables and functions that the interactive interface relies on and executes the sequence of events that dynamically builds the interface on page load.
+The `main.js` file both defines many of the variables and functions that the interactive interface relies on and executes the sequence of events (defined in the `loadIA()` and `loadRegions()` functions) that dynamically builds the interface on page load. The code also sets many event listeners on site elements.
+
+### `loadIA()` / `loadRegions()`
+
+
+
 
 ## #
 
