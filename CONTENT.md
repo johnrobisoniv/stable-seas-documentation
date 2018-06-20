@@ -48,17 +48,20 @@ var issueAreaData = {
               text: 'String inserted into h1 element'
             },
             {
-              // ... etc
+              // ... and the next element ... etc
             }
           ]
         }
+      },
+      {
+        // Card 2 ... etc
       }
     ]
   },
   internationalCooperation: {
 
   },
-  ... etc.
+  // ... etc.
 }
 ```
 
