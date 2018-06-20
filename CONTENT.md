@@ -28,10 +28,29 @@ var issueAreaData = {
         map: {
           /* The map object details a lot of the information needed to build the map properly, including: */
           type: 'continuous, categorical or boolean', // the type of data visualized on the map
-          scale: [],
           classes: 'classes to assign to this card\'s map layers',
           extent: [[],[]], // extent to set lower left and upper right corners of map per [d3 spec](#)
-
+          highlights: [], // array of strings - ISO3 codes of countries to highlight
+          tooltip: true,
+          legend: 'Legend title',
+          tooltipHTML: function (iso) {
+            // returns string constructed with that country's tooltip info for that card
+          },
+          load: function (index, file) {
+            // Card-specific load method. Loads custom layers and classes layers as appropriate.
+          },
+          switch: function (index) {
+            // The code executed when we switch to this card. Often calls choropleth() function (defined in main.js), as well as removing 'invisible' class from card-relevant layers
+          },
+          els: [  // an array of objects detailing html elements, built dynamically in loadIA() function.
+            {
+              tag: 'h1', // denotes what type of element
+              text: 'String inserted into h1 element'
+            },
+            {
+              // ... etc
+            }
+          ]
         }
       }
     ]
