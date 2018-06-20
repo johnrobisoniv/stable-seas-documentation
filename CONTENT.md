@@ -24,9 +24,14 @@ var issueAreaData = {
       {
         title: 'Card Title',
         menu: 'The text displayed on this card\'s menu item',
-        metadata: { \* Card-specific metadata *\ },
+        metadata: { /* Card-specific metadata */ },
         map: {
-          // The map object
+          /* The map object details a lot of the information needed to build the map properly, including: */
+          type: 'continuous, categorical or boolean', // the type of data visualized on the map
+          scale: [],
+          classes: 'classes to assign to this card\'s map layers',
+          extent: [[],[]], // extent to set lower left and upper right corners of map per [d3 spec](#)
+
         }
       }
     ]
