@@ -10,7 +10,7 @@ In order to create new content in the form of cards for the Stable Seas site, co
 
 Each page on the Stable Seas site is dynamically built in the client browser using D3, jQuery and Bootstrap from data included in a file loaded separately, the `main-data.js` file (which is in turn assembled from data included in other files like `blue-economy-data.js`). Abstractly, each page's data is organized as such:
 
-```
+```javascript
 var issueAreaData = {
   overview: {
     metadata: {
